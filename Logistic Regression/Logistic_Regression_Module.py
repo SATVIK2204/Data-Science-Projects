@@ -53,7 +53,7 @@ class LogisticRegression:
         size=X.shape[0]
         Y_pred=self.hypothesis(theta,X)
         
-        cost= -(np.sum(Y * np.log (Y_pred)  + (1-Y) * np.log (1-Y_pred) if ( Y_pred != 1 and Y_pred != 0 ) else 0))
+        cost= -(np.sum(Y * np.log (Y_pred)  + (1-Y) * np.log (1-Y_pred)))
         # print(Y_pred)
         return cost*(1/size)
     
