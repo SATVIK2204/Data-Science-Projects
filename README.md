@@ -1,3 +1,3 @@
 # Data-Science
 
-A basic go-through to the implementation of different Data Science techniques.
+A Bunch of different Projects using different ML Algorithms.
